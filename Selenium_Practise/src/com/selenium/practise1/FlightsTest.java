@@ -14,7 +14,7 @@ public class FlightsTest {
 	public static void main(String[] args) throws InterruptedException {
 		String Expected_Price="";
 	//Setting the driver path
-		System.setProperty("webdriver.chrome.driver","/Users/gmitikela/GitRepo/Learnings/Selenium/chromedriver/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/Users/gmitikela/GitRepo/Selenium_challenge/browser_drivers/chromedriver/chromedriver");
 		
 	//Launching the browser with website url	
 		WebDriver driver=new ChromeDriver();  

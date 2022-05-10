@@ -15,7 +15,6 @@ public class Challenge3 {
 	//Setting the driver path
 		System.setProperty("webdriver.chrome.driver","/Users/gmitikela/GitRepo/Selenium_challenge/browser_drivers/chromedriver/chromedriver");
 		
-		
 	//Launching the browser with website url	
 		WebDriver driver=new ChromeDriver();  
 		driver.get("https://www.saucedemo.com/");
@@ -55,6 +54,7 @@ public class Challenge3 {
 		WebElement added_item = driver.findElement(By.xpath("//div[@class='inventory_item_price']"));
 		System.out.println(added_item.getText());   //We can add an assertion to equal the maximum price we have already
 		Assert.assertEquals(added_item.getText(), Expected_Price);
+		driver.close();
 				
 
 }

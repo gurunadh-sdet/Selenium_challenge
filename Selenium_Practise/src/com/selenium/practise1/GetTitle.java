@@ -12,7 +12,7 @@ public class GetTitle {
 
 	public static void main(String[] args) {
 		//System.setProperty("webdriver.chrome.driver","/Users/gmitikela/GitRepo/Learnings/Selenium/chromedriver/chromedriver");
-		System.setProperty("webdriver.gecko.driver","/Users/gmitikela/GitRepo/Learnings/Selenium/geckodriver");
+		System.setProperty("webdriver.gecko.driver","/Users/gmitikela/GitRepo/Selenium_challenge/browser_drivers/geckodriver");
 		//Launching the browser with website url	
 			 //driver=new ChromeDriver();  
 			 driver=new FirefoxDriver();  
