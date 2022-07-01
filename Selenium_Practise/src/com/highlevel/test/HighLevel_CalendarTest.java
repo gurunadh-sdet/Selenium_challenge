@@ -39,7 +39,7 @@ public class HighLevel_CalendarTest extends Utility {
 
 	@AfterTest
 	public void close_browser() {
-		driver.quit();
+		driver.quit();// closing the browser after the test
 	}
 
 	@Test(description="To verify the appointment schedule date time when user booked appointment from different timzone")

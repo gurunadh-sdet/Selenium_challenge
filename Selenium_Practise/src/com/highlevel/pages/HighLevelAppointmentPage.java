@@ -44,7 +44,7 @@ public class HighLevelAppointmentPage extends Utility{
 		ArrayList<String> all_timezones = new ArrayList<String>();
 		for(WebElement ele:timezones_list) {
 			all_timezones.add(ele.getAttribute("innerText"));
-			System.out.println(ele.getAttribute("innerText"));
+			//System.out.println(ele.getAttribute("innerText"));
 		}
 		return all_timezones;
 	}
