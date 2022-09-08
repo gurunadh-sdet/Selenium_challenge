@@ -59,9 +59,9 @@ public class Palindrome {
 		return true;
 	}
 	
-	public static boolean isPalindromeNumberWithoutStringConversion(Integer num) {	
+	public static boolean isPalindromeNumberWithoutStringConversion(Integer n) {	
 		
-		int n =num, sum = 0;
+		int sum = 0;
 		while(n>0) {
 		int r=n%10;
 		sum = sum*10 +r;
